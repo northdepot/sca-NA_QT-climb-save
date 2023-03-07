@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: single-container-app-mfso
     spec:
       containers:
-      - image: quay.io/jduimovich0/user-workload:NA_QT-single-container-app-mfso
+      - image: quay.io/jduimovich0/user-workload@sha256:c3927cd76f9aae2ea689b3462b54010df0d62c9e2a9338dbff3308b1194a117c
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
